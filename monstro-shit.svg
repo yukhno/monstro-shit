@@ -33,8 +33,12 @@
   <rect x="160" y="165" width="630" height="25" fill="white"/>
   <rect x="160" y="190" width="630" height="25" fill="#f9f9f9"/>
   
-  <!-- Error Modal Window -->
-  <rect x="200" y="100" width="500" height="350" rx="5" ry="5" fill="#ffffff" stroke="#d0d0d0" stroke-width="2"/>
+  <!-- Dark overlay for modal background -->
+  <rect width="800" height="600" fill="rgba(0,0,0,0.5)"/>
+  
+  <!-- Error Modal Window with shadow effect -->
+  <rect x="203" y="103" width="500" height="350" rx="5" ry="5" fill="rgba(0,0,0,0.3)"/>
+  <rect x="200" y="100" width="500" height="350" rx="5" ry="5" fill="#ffffff" stroke="#999999" stroke-width="2"/>
   <rect x="200" y="100" width="500" height="30" rx="5" ry="5" fill="#0078d7"/>
   <text x="220" y="122" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="white">Dynamics Error</text>
   
