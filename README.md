@@ -1,1 +1,1 @@
-![](./monstro-shit.svg)
+![](./monstro-shit-question.svg)
